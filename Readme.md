@@ -33,7 +33,7 @@ chmod 755 ./bin/HITSNP
 - VCTtools 0.1.16
 
 
-## hit-feature: feature SNP screening
+## **hit-feature: feature SNP screening**
 ``` hit-feature ``` is a module that utilizes feature selection methods to select feature SNPs from high-throughput datasets.
 ``` hit-feature ``` also evaluates the breed diversity of feature SNPs, which includes a modified Simpson Diversity index (D<sub>m</sub>) and machine learning classifiers' performance.
 
@@ -115,7 +115,7 @@ Within this folder, the final result of hit-feature includes: model_set (fold), 
 
 
 
-## hit-ancestry: ancestry estimation
+## **hit-ancestry: ancestry estimation**
 ``` hit-ancestry ``` is a module that utilizes the predicted probabilities of classifies in "feature SNP screening" to predict the ancestral populations of an individual.
 
 ### Usage
@@ -181,7 +181,7 @@ The output includes the model_set folder, which contains the four classifier mod
 Additionally, there is a ```results.csv``` file that details the performance of the four classifiers.
 
 
-## hit-minimum: minimum subset selection
+## **hit-minimum: minimum subset selection**
 
 ``` hit-minimum ``` is a tool based on the output of ```hit-feature```, designed to identify the smallest possible subset of feature SNPs while ensuring a certain level of breed differentiation ability.
 

@@ -34,7 +34,7 @@ Please note that, unless otherwise specified, all of the following operations ar
 
 ### Installation
 
-The executable files can be directly downloaded(https://github.com/CAU-TeamLiuJF/HITSNP/releases/download/v1.0/HITSNPv1.0.zip) and used:
+The executable files can be directly downloaded (https://github.com/CAU-TeamLiuJF/HITSNP/releases/download/v1.0/HITSNPv1.0.zip) and used:
 
 ```bash
 unzip HITSNPv1.0.zip

@@ -12,7 +12,7 @@ High-throughput screening for feature SNPs representing breed diversity and esti
 This software is a feature SNP selection tool specifically designed to handle large-scale deep whole-genome sequencing (WGS) data. Based on simulated hybrid data and feature SNPs, it also provides machine learning classifiers trained to predict the number and composition of ancestral populations.
 
 HITSNP includes three modules:  'feature SNP screening', 'ancestry estimation', and 'minimum subset selection'.
-![Workflow](.\\hitsnp-workflow.png "HITSNP-Workflow")
+![Workflow](https://github.com/CAU-TeamLiuJF/HITSNP/blob/main/hitsnp-workflow.png "HITSNP-Workflow")
 
 ## Quick Start
 

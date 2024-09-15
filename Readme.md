@@ -34,12 +34,12 @@ Please note that, unless otherwise specified, all of the following operations ar
 
 ### Installation
 
-The executable files can be directly downloaded and used:
+The executable files can be directly downloaded(https://github.com/CAU-TeamLiuJF/HITSNP/releases/download/v1.0/HITSNPv1.0.zip) and used:
 
 ```bash
-tar zxvf HITSNP.tar.gz
+unzip HITSNPv1.0.zip
 cd HITSNP
-chmod 755 ./bin/HITSNP
+chmod 755 ./HITSNP
 ```
 ### Dependencies
 

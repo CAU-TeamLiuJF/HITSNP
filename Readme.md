@@ -3,16 +3,30 @@
  * @LastEditTime: 2024-09-12 16:00
  * @FilePath: \HITSNP\Readme.md
 -->
+
+
 # HITSNP: a High-throughput Screening for Feature SNPs
 
 High-throughput screening for feature SNPs representing breed diversity and estimating population ancestry: software manual V1.0
+
+## Contents
+
+- [Software Introduction](#software-introduction)
+- [Quick Start](#quick-start)
+- [hit-feature: feature SNP screening](#hit-feature-feature-snp-screening)
+- [hit-ancestry: ancestry estimation](#hit-ancestry-ancestry-estimation)
+- [hit-minimum: minimum subset selection](#hit-minimum-minimum-subset-selection)
+
+&#8203;
+
+&#8203;
 
 ## Software Introduction
 
 This software is a feature SNP selection tool specifically designed to handle large-scale deep whole-genome sequencing (WGS) data. Based on simulated hybrid data and feature SNPs, it also provides machine learning classifiers trained to predict the number and composition of ancestral populations.
 
-HITSNP includes three modules:  ```'feature SNP screening'```, ```'ancestry estimation'```, and ```'minimum subset selection'```.
-![Workflow](https://github.com/CAU-TeamLiuJF/HITSNP/blob/main/hitsnp-workflow.png "HITSNP-Workflow")
+HITSNP includes three modules:  'feature SNP screening', 'ancestry estimation', and 'minimum subset selection'.
+![Workflow](.\\hitsnp-workflow.png "HITSNP-Workflow")
 
 ## Quick Start
 
@@ -33,7 +47,12 @@ chmod 755 ./bin/HITSNP
 - VCTtools 0.1.16
 
 
-## **hit-feature: feature SNP screening**
+&#8203;
+
+&#8203;
+
+
+## **hit-feature**: feature SNP screening
 ``` hit-feature ``` is a module that utilizes feature selection methods to select feature SNPs from high-throughput datasets.
 ``` hit-feature ``` also evaluates the breed diversity of feature SNPs, which includes a modified Simpson Diversity index (D<sub>m</sub>) and machine learning classifiers' performance.
 
@@ -114,8 +133,13 @@ Within this folder, the final result of hit-feature includes: model_set (fold), 
     This first file includes the D<sub>m</sub> value of each feature SNPs, the second file includes the performance of five classifiers.
 
 
+&#8203;
 
-## **hit-ancestry: ancestry estimation**
+&#8203;
+
+
+## **hit-ancestry**: ancestry estimation
+
 ``` hit-ancestry ``` is a module that utilizes the predicted probabilities of classifies in "feature SNP screening" to predict the ancestral populations of an individual.
 
 ### Usage
@@ -181,7 +205,12 @@ The output includes the model_set folder, which contains the four classifier mod
 Additionally, there is a ```results.csv``` file that details the performance of the four classifiers.
 
 
-## **hit-minimum: minimum subset selection**
+&#8203;
+
+&#8203;
+
+
+## **hit-minimum**: minimum subset selection
 
 ``` hit-minimum ``` is a tool based on the output of ```hit-feature```, designed to identify the smallest possible subset of feature SNPs while ensuring a certain level of breed differentiation ability.
 

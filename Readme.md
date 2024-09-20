@@ -44,7 +44,7 @@ chmod 755 ./HITSNP
 ### Dependencies
 
 - Plink 1.90
-- VCTtools 0.1.16
+- VCFtools 0.1.16
 
 
 &#8203;
